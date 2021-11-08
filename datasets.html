@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Neuroblastoma Electronic Health Records Data Lake</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+  
+</head>
+  <body class="container">
+
+<figure>
+    <a href="https://davidechicco.github.io/cibb2021/"><img src="./banner1.png" width="1000" align="center"/></a>
+</figure>  
+  
+
+<table border="0" class="table" style="100%" style="white-space:nowrap;">
+    <tr>
+        <td width="300"><a href="index.html">home</a></td>
+        <td width="300"><a href="datasets.html">datasets</a></td>
+        <td width="300"><a href="contacts_and_credits.html">contacts and credits</a></td>
+        <tr>
+</table>
+
+
+
+<!-- end of the header that is the same for each webpage -->
+  
+  
+<h1>Datasets</h1>
+
+At the moment, 5 datasets are present here, all available under the CC BY-NC 4.0 license.
+<hr>
+
+<!-- dataBB2013 dataBB2013 dataBB2013 dataBB2013 dataBB2013 dataBB2013 dataBB2013 dataBB2013 dataBB2013 dataBB2013 dataBB2013 dataBB2013  -->
+
+<h2>dataBB2013</h2>
+Quantitative characteristics: 121 patients, 13 features, released in 2013. License: CC BY-NC 4.0. File type: .xls
+</br>
+</p>
+
+<table class="table table-bordered table-hover table-condensed">
+<thead><tr><th title="Field #1">feature</th>
+<th title="Field #2">meaning</th>
+<th title="Field #3">type</th>
+<th title="Field #4">values</th>
+</tr></thead>
+<tbody><tr>
+<td>Age at diagnosis</td>
+<td>age at diagnosis</td>
+<td>months</td>
+<td>2, ..., 196</td>
+</tr>
+<tr>
+<td>Ferritin</td>
+<td>ferritin serum level</td>
+<td>ng/ml</td>
+<td>-99, 19, ..., 2250</td>
+</tr>
+<tr>
+<td>Histology</td>
+<td>Histological category </td>
+<td>categorical</td>
+<td>NS, NB, GNB</td>
+</tr>
+<tr>
+<td>INRG Risk classification</td>
+<td>risk group: HR: high risk</td>
+<td>categorical (only one value)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>INSS Stage</td>
+<td>Stage of the tumor (only stage 4 patients)</td>
+<td>categorical (only one value)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Methylation PCDHB cluster (%)</td>
+<td>methylation of 17 genes of the Protocadherin B cluster</td>
+<td>percentage</td>
+<td>29.44, ..., 88.93</td>
+</tr>
+<tr>
+<td>Methylation SFN (%)</td>
+<td>methylation of the SFN gene</td>
+<td>percentage</td>
+<td>36.6, ..., 99</td>
+</tr>
+<tr>
+<td>MYCN amplification</td>
+<td>Status of nMYC oncogene: 0, amplified, 1, unamplified;</td>
+<td>binary</td>
+<td>0, 1</td>
+</tr>
+<tr>
+<td>OS</td>
+<td>overall survival</td>
+<td>months</td>
+<td>0.27, ..., 164.47</td>
+</tr>
+<tr>
+<td>Outcome</td>
+<td>Clinical Outcome</td>
+<td>categorical</td>
+<td>0,1</td>
+</tr>
+<tr>
+<td>PFS</td>
+<td>progression free survival</td>
+<td>months</td>
+<td>3.7, ...., 74.7, NaN</td>
+</tr>
+<tr>
+<td>Set of patients</td>
+<td>Training\Testing division of patients</td>
+<td>binary</td>
+<td>0, 1</td>
+</tr>
+</tbody></table>
+
+</br>
+</p>
+
+<span style="color: gray;">
+<a href="https://figshare.com/articles/dataset/_Clinical_Potentials_of_Methylator_Phenotype_in_Stage_4_High_Risk_Neuroblastoma_An_Open_Challenge_/705932?file=1065974" target="_blank" rel="noopener noreferrer">
+Download the dataBB2013 dataset
+</a>
+</span>
+</br>
+</p>
+
+<hr>
+
+<!-- dataCK2018 dataCK2018 dataCK2018 dataCK2018 dataCK2018 dataCK2018 dataCK2018 dataCK2018 dataCK2018 dataCK2018 dataCK2018 dataCK2018    -->
+
+<h2>dataCK2018</h2>
+Quantitative characteristics: 20 patients, 17 features, released in 2018.  License: CC BY-NC 4.0. File type: .xls
+</br>
+</p>
+
+<table class="table table-bordered table-hover table-condensed">
+<thead><tr><th title="Field #1">feature</th>
+<th title="Field #2">meaning</th>
+<th title="Field #3">type</th>
+<th title="Field #4">values</th>
+</tr></thead>
+<tbody><tr>
+<td>11q-</td>
+<td>presence of chromosomal aberration  at 11q site</td>
+<td>boolean</td>
+<td>yes, no, -</td>
+</tr>
+<tr>
+<td>171+</td>
+<td>presence of chromosomal aberration at 17q site</td>
+<td>boolean</td>
+<td>yes, no, -</td>
+</tr>
+<tr>
+<td>1p-</td>
+<td>presence of chromosomal aberration  at 1p site</td>
+<td>boolean</td>
+<td>yes, no, -</td>
+</tr>
+<tr>
+<td>age</td>
+<td>age</td>
+<td>months</td>
+<td>0, ..., 10.2</td>
+</tr>
+<tr>
+<td>Ferritin</td>
+<td>ferritin levels</td>
+<td>ng/mL</td>
+<td>15, ..., 1638.6</td>
+</tr>
+<tr>
+<td>LDH</td>
+<td>lactic acid dehydrogenase levels</td>
+<td>U/L</td>
+<td>539, ..., 6200</td>
+</tr>
+<tr>
+<td>Local RTx dose (gy)</td>
+<td>dosage of radiation</td>
+<td>float</td>
+<td>15, 23.4, 25.2, -</td>
+</tr>
+<tr>
+<td>Metastatic sites</td>
+<td>site of metastsoization</td>
+<td>categorical</td>
+<td>BM, Bone, Kidney, liver, LN, lung,</td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>mediastinum, muscle, pleura, skin</td>
+</tr>
+<tr>
+<td>NSE</td>
+<td>neuron-specific enolase levels</td>
+<td>float</td>
+<td>7.3, ..., 947</td>
+</tr>
+<tr>
+<td>Outcome </td>
+<td>alive or dead</td>
+<td>boolean</td>
+<td>NED, EFS</td>
+</tr>
+<tr>
+<td>Outcome_mo</td>
+<td>follow-up </td>
+<td>monhths</td>
+<td>17, ..., 91</td>
+</tr>
+<tr>
+<td>Patients no.</td>
+<td>ID</td>
+<td>integer</td>
+<td>code</td>
+</tr>
+<tr>
+<td>Primary site</td>
+<td>tumor primary site</td>
+<td>binary</td>
+<td>abdomen, mediastinum</td>
+</tr>
+<tr>
+<td>Sex</td>
+<td>F/M</td>
+<td>binary</td>
+<td>M/F</td>
+</tr>
+<tr>
+<td>Tumor response after CT &amp; S</td>
+<td>patient response after chemotheraphy and surgey</td>
+<td>categorical</td>
+<td>CR, MR, PR, VGPR</td>
+</tr>
+<tr>
+<td>Tumor response after DT</td>
+<td>patient response after differentiation theraphy (DT)</td>
+<td>categorical</td>
+<td>CR, MR, PR, VGPR</td>
+</tr>
+<tr>
+<td>Urine VMA</td>
+<td>vanillylmandelic acid levels in urine</td>
+<td>mg/day</td>
+<td>0.5, ..., 53.9</td>
+</tr>
+</tbody></table>
+
+</br>
+</p>
+
+<span style="color: gray;">
+<a href="https://www.e-cep.org/journal/Table.php?xn=kjped-61-53.xml&id=T2-kjped-61-53&mode=export" target="_blank" rel="noopener noreferrer">
+Download the dataCK2018 dataset
+</a>
+</span>
+</br>
+</p>
+
+<hr>
+
+<!-- dataEV2013 dataEV2013 dataEV2013 dataEV2013 dataEV2013 dataEV2013 dataEV2013 dataEV2013 dataEV2013 dataEV2013 dataEV2013     -->
+
+<h2>dataEV2013</h2>
+Quantitative characteristics: 19 patients, 12 features, released in 2013.  License: CC BY-NC 4.0. File type: .xls
+</br>
+</p>
+
+<table class="table table-bordered table-hover table-condensed">
+<thead><tr><th title="Field #1">feature</th>
+<th title="Field #2">meaning</th>
+<th title="Field #3">type</th>
+<th title="Field #4">values</th>
+</tr></thead>
+<tbody><tr>
+<td>Age at diagnosis</td>
+<td>age</td>
+<td>months</td>
+<td>9, ..., 108</td>
+</tr>
+<tr>
+<td>Follow-up time</td>
+<td>Overall survival</td>
+<td>months</td>
+<td>1, ..., 132</td>
+</tr>
+<tr>
+<td>ID</td>
+<td>ID</td>
+<td>integer</td>
+<td>code</td>
+</tr>
+<tr>
+<td>Metastases</td>
+<td>Presence of metastasis</td>
+<td>boolean</td>
+<td>yes, no</td>
+</tr>
+<tr>
+<td>Outcome</td>
+<td>Clinical outcome</td>
+<td>categorical</td>
+<td>ADF, AWD, DOD, DOS, DTC</td>
+</tr>
+<tr>
+<td>Pathology</td>
+<td>Patological category </td>
+<td>categorical</td>
+<td>nGNB, pdNB, uNB<br/></td>
+</tr>
+<tr>
+<td>Protocol Treatment</td>
+<td>Treatment protocol</td>
+<td>categorical</td>
+<td>HR-NBL1, INES, LNESG1, N-II-92, NAR-99</td>
+</tr>
+<tr>
+<td>Relapse</td>
+<td>relapsed Yes or no</td>
+<td>boolean</td>
+<td>yes/no</td>
+</tr>
+<tr>
+<td>Sex</td>
+<td>M/F</td>
+<td>binary</td>
+<td>M/F</td>
+</tr>
+<tr>
+<td>Stage</td>
+<td>Stage of the tumor</td>
+<td>categorical</td>
+<td>1, 2, 3, 4</td>
+</tr>
+<tr>
+<td>Time to first relapse</td>
+<td>time to first relapse</td>
+<td>months</td>
+<td>4, ..., 28</td>
+</tr>
+<tr>
+<td>Treatment Response</td>
+<td>treatmnent response</td>
+<td>categorical</td>
+<td>CR, DP, PR, SurPR, VGPR</td>
+</tr>
+</tbody></table>
+
+</br>
+</p>
+
+<span style="color: gray;">
+<a href="https://figshare.com/articles/dataset/_Clinical_characteristics_and_outcome_/178061" target="_blank" rel="noopener noreferrer">
+Download the dataEV2013 dataset
+</a>
+</span>
+</br>
+</p>
+
+<hr>
+
+<!-- dataYBC2019 dataYBC2019 dataYBC2019 dataYBC2019 dataYBC2019 dataYBC2019 dataYBC2019 dataYBC2019 dataYBC2019 dataYBC2019      -->
+
+<h2>dataYBC2019</h2>
+Quantitative characteristics: 7 patients, 11 features, released in 2019.  License: CC BY-NC 4.0. File type: .xls
+</br>
+</p>
+
+<table class="table table-bordered table-hover table-condensed">
+<thead><tr><th title="Field #1">feature</th>
+<th title="Field #2">meaning</th>
+<th title="Field #3">type</th>
+<th title="Field #4">values</th>
+</tr></thead>
+<tbody><tr>
+<td>Age at Dx.</td>
+<td>Age of the patient at diagnosis</td>
+<td>years</td>
+<td>1.5, ..., 3.5</td>
+</tr>
+<tr>
+<td>Age at relapse</td>
+<td>Age of the patient at relapse</td>
+<td>years</td>
+<td>4.1, ..., 8.6</td>
+</tr>
+<tr>
+<td>HDCT1 regimen</td>
+<td>first high-dose chemotherapy</td>
+<td>binary</td>
+<td>TTC, CEC</td>
+</tr>
+<tr>
+<td>HDCT2 regimen</td>
+<td>second high-dose chemotherapy</td>
+<td>binary</td>
+<td>MEC, MIBG-TM</td>
+</tr>
+<tr>
+<td>Interval to relapse</td>
+<td>Interval (m) to relapse</td>
+<td>months</td>
+<td>12, ..., 75</td>
+</tr>
+<tr>
+<td>MYCN status</td>
+<td>amplified (A) or not amplified (NA)</td>
+<td>binary</td>
+<td>A, NA</td>
+</tr>
+<tr>
+<td>Patient #</td>
+<td>ID</td>
+<td> </td>
+<td>code</td>
+</tr>
+<tr>
+<td>Relapsed sites</td>
+<td>relapse sites in the body</td>
+<td>categorical</td>
+<td>Primary, Brain, bone, LNs, BM</td>
+</tr>
+<tr>
+<td>Stage at Dx</td>
+<td>only metastistic tumors</td>
+<td>categorical</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Treatment prior to haplo-SCT</td>
+<td>treatment prior to haploidentical stem<br/>cell transplantation</td>
+<td>categorical</td>
+<td>Surgery, L-RT, CT×5, CT×6, CT×7</td>
+</tr>
+<tr>
+<td>Tumor status at haplo-SCT</td>
+<td>tumor status at athaploidentical stem<br/>cell transplantation</td>
+<td>categorical</td>
+<td>PR, CR, VGPR</td>
+</tr>
+</tbody></table>
+</br>
+</p>
+
+<span style="color: gray;">
+<a href="https://figshare.com/articles/dataset/Patient_characteristics_/11367095 " target="_blank" rel="noopener noreferrer">
+Download the dataYBC2019 dataset
+</a>
+</span>
+</br>
+</p>
+
+<hr>
+
+<h2>dataYM2018</h2>
+Quantitative characteristics: 169 patients, 13 features, released in 2018. License: CC BY-NC 4.0. File type: .xls
+</br>
+</p>
+
+<table class="table table-bordered table-hover table-condensed">
+<thead><tr><th title="Field #1">feature</th>
+<th title="Field #2">meaning</th>
+<th title="Field #3">type</th>
+<th title="Field #4">values</th>
+</tr></thead>
+<tbody><tr>
+<td>age</td>
+<td>&lt;12 months, 1, 12–60 months, 2, ≥60 months;</td>
+<td>integer</td>
+<td>0,1,2</td>
+</tr>
+<tr>
+<td>autologous stem cell transplantation</td>
+<td>Autologous stem cell transplantation:0, no, 1, yes;</td>
+<td>binary</td>
+<td>0,1</td>
+</tr>
+<tr>
+<td>degree of differentiation</td>
+<td>Degree of differentiation:0, undifferentiated subtype,</td>
+<td>categorical</td>
+<td>0,1,2</td>
+</tr>
+<tr>
+<td> </td>
+<td>1, poorly differentiated subtype, 2, differentiating subtype;</td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>MYCN status</td>
+<td>Status of nMYC oncogene: 0, amplified, 1, unamplified;</td>
+<td>binary</td>
+<td>0,1</td>
+</tr>
+<tr>
+<td>outcome</td>
+<td>Clinical Outcome: 1, dead of disease, 0, alive or lost follow-up;</td>
+<td>binary</td>
+<td>0,1</td>
+</tr>
+<tr>
+<td>radiation</td>
+<td>Radiation: 0, no, 1, yes;</td>
+<td>binary</td>
+<td>0,1</td>
+</tr>
+<tr>
+<td>Risk</td>
+<td>Risk group :0, intermediate-risk, 1, high-risk;</td>
+<td>categorical</td>
+<td>0,1</td>
+</tr>
+<tr>
+<td>sex</td>
+<td>0: male; 1: female</td>
+<td>integer</td>
+<td>0,1</td>
+</tr>
+<tr>
+<td>site</td>
+<td>primary tumor Site:0, adrenal gland, 1, mediastinum, 2, others;</td>
+<td>categorical</td>
+<td>0,1,2</td>
+</tr>
+<tr>
+<td>stage</td>
+<td>Stage of the tumor</td>
+<td>categorical</td>
+<td>1,2,3,4</td>
+</tr>
+<tr>
+<td>surgical methods</td>
+<td>total or partial resection</td>
+<td>binary</td>
+<td>0,1</td>
+</tr>
+<tr>
+<td>time</td>
+<td>overall survival</td>
+<td>months</td>
+<td>1,...,100</td>
+</tr>
+<tr>
+<td>UH or FH</td>
+<td>Histology FH favorable/UH unfavorable</td>
+<td>Binary</td>
+<td>UH / FH</td>
+</tr>
+</tbody></table>
+</br>
+</p>
+
+<span style="color: gray;">
+<a href="dataYM2018 https://dfzljdn9uc3pi.cloudfront.net/2018/5665/1/RAW_5.xls " target="_blank" rel="noopener noreferrer">
+Download the dataYM2018 dataset
+</a>
+</span>
+</br>
+</p>
+
+<hr>
+
+
+
+
+</body>
+</html>
