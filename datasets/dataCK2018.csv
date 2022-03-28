@@ -1,5 +1,5 @@
-patientID,sex_1female_0male,age_months,primary_site_0abdomen_1mediastinum,metastatic_site,1p−,11q−,17q+,LDH_U/L,ferritin_ng/mL,NSE _ng/mL,urine_VMA_mg/day,tumor_response_after_CT_and_S_0CR_1PR_2MR_3VGPR,tumor_response_after_DT_0CR_1PR_2MR_3VGPR,local_Rtx_dose_Gy,outcome_0NED_1EFS,outcome_months
-1,1,10.2,0,"Bone, LN",,,,856,15.7,32.5,1.2,0,0,15,0,82
+patientID,sex_1female_0male,age_months,primary_site_0abdomen_1mediastinum,metastatic_site,1p-,11q-,17q+,LDH_U/L,ferritin_ng/mL,NSE _ng/mL,urine_VMA_mg/day,tumor_response_after_CT_and_S_0CR_1PR_2MR_3VGPR,tumor_response_after_DT_0CR_1PR_2MR_3VGPR,local_Rtx_dose_Gy,outcome_0NED_1EFS,outcome_months
+1,1,10.2,0,"Bone, LN",4,,,856,15.7,32.5,1.2,0,0,15,0,82
 2,1,9.4,0,LN,,,,,35.9,13.1,2.2,0,0,15,0,91
 3,1,1.2,0,"BM, liver",,,,6200,1638.6,947,36.8,0,0,15,0,90
 4,0,7.9,0,"Bone, BM, LN",,,,681,15,41.3,31.1,0,0,15,0,69

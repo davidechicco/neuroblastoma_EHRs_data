@@ -1,4 +1,4 @@
-ID,Sex_0man_1woman,Age_at_diagnosis_(months),Stage,Metastases_Presence,Metastases_location,Pathology,Protocol_Treatment,Treatment_Response,Relapse,Time_to_first_relapse_months,Outcome,Follow-up_time_months
+ID,Sex_0man_1woman,Age_at_diagnosis_months,Stage,Metastases_Presence,Metastases_location,Pathology,Protocol_Treatment,Treatment_Response,Relapse,Time_to_first_relapse_months,Outcome,Follow-up_time_months
 1,0,12,1,0,none,pdNB,INES,CR,1,14,DOD,15
 14,0,41,2,0,none,nGNB,LNESG1,SurPR,1,4,DOD,53
 5,1,18,3,0,none,pdNB,N-II-92,,0,,DOS,1
