@@ -1,8 +1,8 @@
-PatientID,YearsAgeAtDx,StageAtDx,MYCN_status_NA0_A1,HDCT1_regimen,HDCT2_regimen,MonthsIntervalToRelapse,YearsAgeAtRelapse,RelapsedSites,TreatmentPriorToHaplo-SCT,TumorStatusAtHaplo-SCT
-1,3.3,4,0,CEC,MIBG-TM,16,5.6,LNs,CTx4 and L-RT,PR
-2,3.5,4,1,CEC,MIBG-TM,32,7.2,Bone and BM,CTx6,VGPR
-3,1.5,4,1,TTC,MEC,75,8.6,Bone and BM and brain,CTx5,PR
-4,2.4,4,0,CEC,MIBG-TM,12,4.4,Primary and LNs,Surgery and CTx6 and L-RT,CR
-5,3.1,4,0,CEC,MIBG-TM,12,5.2,Brain and bone,Surgery and CTx7 and L-RT,VGPR
-6,3.3,4,1,CEC,MIBG-TM,45,5.9,Bone and BM and brain,CTx6,PR
-7,1.5,4,0,CEC,MIBG-TM,19,4.1,LNs,CTx5 and L-RT,PR
+PatientID,YearsAgeAtDx,StageAtDx,MYCN_status_NA0_A1,HDCT1_regimen_0cec_1ttc,HDCT2_regimen_0mibgtm_1mec,MonthsIntervalToRelapse,YearsAgeAtRelapse,TumorStatusAtHaplo-SCT_0pr_1vgpr_2cr,RelapsedSites_Lns,RelapsedSites_Bone,RelapsedSites_BM,RelapsedSites_brain,RelapsedSites_primary,TreatmentPriorToHaplo-SCT_Ctx4,TreatmentPriorToHaplo-SCT_LRT,TreatmentPriorToHaplo-SCT_Ctx6,TreatmentPriorToHaplo-SCT_Ctx5,TreatmentPriorToHaplo-SCT_Ctx7,TreatmentPriorToHaplo-SCT_surgery
+1,3.3,4,0,0,0,16,5.6,0,1,0,0,0,0,1,1,0,0,0,0
+2,3.5,4,1,0,0,32,7.2,1,0,1,1,0,0,0,0,1,0,0,0
+3,1.5,4,1,1,1,75,8.6,0,0,1,1,1,0,0,0,0,1,0,0
+4,2.4,4,0,0,0,12,4.4,2,1,0,0,0,1,0,1,1,0,0,1
+5,3.1,4,0,0,0,12,5.2,1,0,1,0,1,0,0,1,0,0,1,1
+6,3.3,4,1,0,0,45,5.9,0,0,1,1,1,0,0,0,1,0,0,0
+7,1.5,4,0,0,0,19,4.1,0,1,0,0,0,0,0,1,0,1,0,0
