@@ -1,4 +1,4 @@
-age,sex,site,stage,risk,time_months,autologous_stem_cell_transplantation,radiation,degree_of_differentiation,UH_or_FH,MYCN_status ,surgical_methods,outcome
+age,sex,site,stage,risk,time_months,autologous_stem_cell_transplantation,radiation,degree_of_differentiation,histology_prognosis,MYCN_status ,surgical_methods,outcome
 2,0,0,1,1,7,0,0,0,0,1,1,0
 2,0,0,1,1,19,0,1,0,0,1,1,1
 1,0,0,1,1,25,0,1,1,0,1,0,1
